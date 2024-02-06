@@ -2,7 +2,7 @@
 
 import os, xml.etree.ElementTree as ET
 
-diretoria_dados = "/home/ivsopi3/Downloads/MapaRuas-materialBase/texto/"
+diretoria_dados = "MapaRuas-materialBase/texto"
 
 files = os.listdir(diretoria_dados)
 
@@ -66,7 +66,7 @@ for file in files:
 
 		conteudoHTML += f"""
 					<li>
-						<a href="emd{numero}.html">{numero}: {nome}</a>
+						<a href="mrb{numero}.html">{numero}: {nome}</a>
 					</li>
 		"""
 
