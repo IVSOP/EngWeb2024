@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 
-import os, xml.etree.ElementTree as ET
+import os, xml.etree.ElementTree as ET, glob
 
 diretoria_dados = "MapaRuas-materialBase/"
 
 files = os.listdir(diretoria_dados + "texto")
 
 files.sort()
-
 
 def parse_xml(file_path):
     tree = ET.parse(file_path)
@@ -23,20 +22,35 @@ def get_text(element):
     return text
 
 
-						# <figure>
-						# 	<img src="../MapaRuas-materialBase/imagem/MRB-01-RuaDoCampo-nascente.PNG"">
-						# 	<figcaption>Rua do Campo - vista nascente.</figcaption>
-						# </figure> 
-
-def generateImagens(figuras):
+								# <div class="w3-card-4">
+								# 	<img src="../imagem/MRB-01-RuaDoCampo-nascente.PNG" class="w3-container image">
+								# 	<hr>
+								# 	<img src="../MapaRuas-materialBase/atual/1-RuadoCampo-Vista1.JPG" class="w3-container image"/>
+								# 	<div class="w3-container w3-center">
+								# 	  <p>Rua do Campo - vista nascente.</p>
+								# 	</div>
+								# </div>
+def generateImagens(imagens):
 	res = ""
-	for figura in figuras:
-		res += f"""
-						<figure>
-							<img src="{figura[0]}">
-							<figcaption>{figura[1]}</figcaption>
-						</figure>
-		"""
+	for imagem in imagens:
+		if imagem[2] is not None:
+			res += f"""
+							<div class="w3-card-4">
+								<img src="{imagem[0]}" class="w3-container image">
+								<img src="{imagem[2]}" class="w3-container image"/>
+								<hr>
+								<div class="w3-container w3-center">
+									<p>{imagem[1]}</p>
+								</div>
+							</div>
+			"""
+		else:
+			res += f"""
+							<div class="w3-card-4">
+								<img src="{imagem[0]}" class="w3-container image">
+								<img src="{imagem[2]}" class="w3-container image"/>
+							</div>
+			"""
             
 	return res
 
@@ -54,39 +68,55 @@ def generatePara(paragrafos):
 		"""
 	return res
 
-						# <li>
-						# 	<casa>
-						# 		<número>3</número>
-						# 		<enfiteuta>Os herdeiros do Padre Domingos Tinoco</enfiteuta>
-						# 		<foro>150 reis e 2 galinhas</foro>
-						# 		<desc>
-						# 			<p>
-						# 				Confronta, de Sul, com parte da mesma casa foreira à <entidade tipo="instituição">Confraria da Trindade</entidade>, antiga <entidade tipo="instituição">Confraria da Companhia de Jesus</entidade> e, de Norte, com casa dízima a Deus
-						# 			</p>
-						# 		</desc>
-						# 	</casa>
-						# </li>
+						# <tr>
+						# 	<td>1</td>
+						# 	<td>Domingos Dias</td>
+						# 	<td>620 reis e galinhas</td>
+						# 	<td>
+						# 		<p>
+						# 			Desde o ano de 1719 que os nº 1 e 2 se encontravam unidos. A frontaria que dá para a Rua Nova de Sousa corresponde ao nº15 da dita rua e é foreira à comenda de São Pedro de Merelim.
+						# 		</p>
+						# 	</td>
+						# </tr>
 def generateCasas(casas):
 	res = ""
 	for casa in casas:
 		res += f"""
-						<li>
-							<p>Número: {casa["número"]}</p>
-							<p>enfiteuta: {casa["enfiteuta"]}</p>
-							<p>foro: {casa["foro"]}</p>
+						<tr>
+							<td>{casa["número"]}</td>
+							<td>{casa["enfiteuta"]}</td>
+							<td>{casa["foro"]}</td>
+							<td>
 		"""
 
-		for para in casa["desc"]:
+		for para in casa["desc"]: # fazer isto nao ficar centrado como?????????????????????
 			res += f"""
-							<p>{para}</p>	
+								<p>{para}</p>	
 			"""
-		
-		res += """
-						</li>
-		"""
 
+		res += """
+							</td>
+						</tr>
+		"""
+	
 	return res
 
+
+def getImagensAtuais(figuras, numero):
+
+	todas_atuais = glob.glob(diretoria_dados + "atual/" + numero + "-*")
+	todas_atuais.sort()
+	imagens = []
+	i = 0
+	for figura in figuras:
+		try:
+			imagens.append((figura[0], figura[1], "../" + todas_atuais[i]))
+		except IndexError:
+			imagens.append((figura[0], figura[1], None))
+		finally:
+			i += 1
+
+	return imagens
 
 for file in files:
 	file_path = os.path.join(diretoria_dados + "texto", file)
@@ -101,7 +131,11 @@ for file in files:
 
 		figuras = []
 		for fig in tree.findall(".//corpo//figura"):
-			figuras.append((fig.find(".//imagem").attrib.get("path"), fig.find(".//legenda").text))
+			path_antiga = fig.find(".//imagem").attrib.get("path")
+			legenda = fig.find(".//legenda").text
+			figuras.append((path_antiga, legenda))
+		
+		imagens = getImagensAtuais(figuras, numero)
 		
 		# print(figuras)
 		paragrafos = tree.findall(".//corpo/para")
@@ -136,6 +170,7 @@ for file in files:
 				<meta charset="UTF-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1">
 				<link rel="stylesheet" href="w3.css">
+				<link rel="stylesheet" href="custom.css">
 			</head>
 
 			<body>
@@ -146,21 +181,34 @@ for file in files:
 						<h3>Lista de ruas de Braga: {nome}</h3>
 					</header>
 					<div class="w3-container">
+						<div class="w3-container w3-center all-image-div">
+							<div class="image-div">
 		"""
 
-		imagensHTML = generateImagens(figuras)
+		imagensHTML = generateImagens(imagens)
+
+		imagensHTML += """
+							</div>
+						</div>
+		"""
 
 		paraHTML = generatePara(paragrafos)
 
 		casaspreHTML = f"""
 					</div>
-					<ul class="w3-ul w3-card-4" style="width:50%">
+					<table class="w3-table-all w3-card-4">
+						<tr>
+							<th>Número</th>
+							<th>Enfiteuta</th>
+							<th>Foro</th>
+							<th>Descrição</th>
+						</tr>
 		"""
 
 		casasHTML = generateCasas(casas)
 
 		postHTML = """
-					</ul>
+					</table>
 
 					<footer class="w3-container w3-purple">
 						<h5>Generated by MRBApp::EngWeb2024::A100538</h5>
