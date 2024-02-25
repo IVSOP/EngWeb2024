@@ -20,6 +20,13 @@ http.createServer(function (req, res) {
 			res.write(data)
 			res.end()
 		})
+	} else if (str == "custom.css") {
+		console.log("css")
+		fs.readFile("./pages/custom.css", function(err, data) {
+			res.writeHead(200, {"Content-Type": "text/css"})
+			res.write(data)
+			res.end()
+		})
 	} else if (regex.test(str)) {
 		console.log("cidade")
 		fs.readFile("./pages/" + str + ".html", function(err, data) {
