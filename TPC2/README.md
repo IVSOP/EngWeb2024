@@ -1,4 +1,4 @@
-# TPC1: Mapa virtual
+# TPC2: Mapa virtual
 ## 19-02-2024
 
 ## Autor:

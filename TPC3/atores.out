@@ -1,0 +1,14 @@
+JSON Server started on PORT :3002
+Press CTRL-C to stop
+Watching ficheiros/atores.json...
+
+( ˶ˆ ᗜ ˆ˵ )
+
+Index:
+http://localhost:3002/
+
+Static files:
+Serving ./public directory if it exists
+
+Endpoints:
+http://localhost:3002/atores

@@ -1,0 +1,14 @@
+JSON Server started on PORT :3000
+Press CTRL-C to stop
+Watching ficheiros/filmes.json...
+
+♡( ◡‿◡ )
+
+Index:
+http://localhost:3000/
+
+Static files:
+Serving ./public directory if it exists
+
+Endpoints:
+http://localhost:3000/filmes
