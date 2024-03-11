@@ -153,12 +153,11 @@ function compositoresIndex(compositores) {
 				
     pagHTML += `
 				</ul>
-					<a href="compositores/create">
-						<button type="button" class="w3-button w3-purple botao-submit">
-							+
-						</button>
-					</a>
-				</form>
+				<a href="compositores/create">
+					<button type="button" class="w3-button w3-purple botao-submit">
+						+
+					</button>
+				</a>
             </div>
             
             <footer class="w3-container w3-teal">
