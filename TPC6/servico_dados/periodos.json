@@ -1,0 +1,684 @@
+{
+	"nome": "Barroco",
+	"compositores": [
+		{
+			"comp_nome": "Alessandro Marcello",
+			"comp_id": "C26"
+		},
+		{
+			"comp_nome": "Alessandro Scarlatti",
+			"comp_id": "C48"
+		},
+		{
+			"comp_nome": "Altnickol, Johann Christoph",
+			"comp_id": "C76"
+		},
+		{
+			"comp_nome": "Antoine Forqueray",
+			"comp_id": "C204"
+		},
+		{
+			"comp_nome": "Antonio Lotti",
+			"comp_id": "C156"
+		},
+		{
+			"comp_nome": "Antonio Lucio Vivaldi",
+			"comp_id": "C50"
+		},
+		{
+			"comp_nome": "Antonio Soler",
+			"comp_id": "C148"
+		},
+		{
+			"comp_nome": "Ariosti, Attilio",
+			"comp_id": "C274"
+		},
+		{
+			"comp_nome": "Bach, Johann Sebastian",
+			"comp_id": "C278"
+		},
+		{
+			"comp_nome": "Bach, Wilhelm Friedemann",
+			"comp_id": "C238"
+		},
+		{
+			"comp_nome": "Balbastre, Claude",
+			"comp_id": "C336"
+		},
+		{
+			"comp_nome": "Baldassare Galuppi",
+			"comp_id": "C28"
+		},
+		{
+			"comp_nome": "Barbara of Portugal",
+			"comp_id": "C282"
+		},
+		{
+			"comp_nome": "Benda, Franz",
+			"comp_id": "C334"
+		},
+		{
+			"comp_nome": "Biber, Carl Heinrich",
+			"comp_id": "C322"
+		},
+		{
+			"comp_nome": "Bononcini, Giovanni Battista",
+			"comp_id": "C166"
+		},
+		{
+			"comp_nome": "Bonporti, Francesco Antonio",
+			"comp_id": "C326"
+		},
+		{
+			"comp_nome": "Caldara, Antonio",
+			"comp_id": "C168"
+		},
+		{
+			"comp_nome": "Corelli, Arcangelo",
+			"comp_id": "C94"
+		},
+		{
+			"comp_nome": "Couperin, Armand-Louis",
+			"comp_id": "C300"
+		},
+		{
+			"comp_nome": "David Perez",
+			"comp_id": "C106"
+		},
+		{
+			"comp_nome": "Domenico Alberti",
+			"comp_id": "C54"
+		},
+		{
+			"comp_nome": "Domenico Scarlatti",
+			"comp_id": "C96"
+		},
+		{
+			"comp_nome": "Durante, Francesco",
+			"comp_id": "C286"
+		},
+		{
+			"comp_nome": "Emanuele d'Astorga",
+			"comp_id": "C142"
+		},
+		{
+			"comp_nome": "Francesco Feo",
+			"comp_id": "C188"
+		},
+		{
+			"comp_nome": "Francesco Geminiani",
+			"comp_id": "C288"
+		},
+		{
+			"comp_nome": "Francesco Maria Veracini",
+			"comp_id": "C32"
+		},
+		{
+			"comp_nome": "Friederike Sophie Wilhelmine",
+			"comp_id": "C170"
+		},
+		{
+			"comp_nome": "Fux, Johann Joseph",
+			"comp_id": "C224"
+		},
+		{
+			"comp_nome": "Georg Bohm",
+			"comp_id": "C254"
+		},
+		{
+			"comp_nome": "Georg Muffat",
+			"comp_id": "C160"
+		},
+		{
+			"comp_nome": "Georg Philipp Telemann",
+			"comp_id": "C56"
+		},
+		{
+			"comp_nome": "Gibbs, Joseph",
+			"comp_id": "C324"
+		},
+		{
+			"comp_nome": "Giovanni Battista Bassani",
+			"comp_id": "C90"
+		},
+		{
+			"comp_nome": "Giuseppe Tartini",
+			"comp_id": "C34"
+		},
+		{
+			"comp_nome": "Grigny, Nicolas de",
+			"comp_id": "C146"
+		},
+		{
+			"comp_nome": "Handel, George Frideric",
+			"comp_id": "C58"
+		},
+		{
+			"comp_nome": "Hasse, Johann Adolph",
+			"comp_id": "C132"
+		},
+		{
+			"comp_nome": "Haym, Nicola Francesco",
+			"comp_id": "C82"
+		},
+		{
+			"comp_nome": "Henri Desmarets",
+			"comp_id": "C196"
+		},
+		{
+			"comp_nome": "Jan Dismas Zelenka",
+			"comp_id": "C78"
+		},
+		{
+			"comp_nome": "Jean-Joseph Mouret",
+			"comp_id": "C86"
+		},
+		{
+			"comp_nome": "Jean-Marie Leclair",
+			"comp_id": "C330"
+		},
+		{
+			"comp_nome": "Jeremiah Clarke",
+			"comp_id": "C306"
+		},
+		{
+			"comp_nome": "Johann Christoph(er) Pepusch",
+			"comp_id": "C16"
+		},
+		{
+			"comp_nome": "Johann David Heinichen",
+			"comp_id": "C212"
+		},
+		{
+			"comp_nome": "Johann Ernst Eberlin",
+			"comp_id": "C70"
+		},
+		{
+			"comp_nome": "Johann Gottlieb Goldberg",
+			"comp_id": "C270"
+		},
+		{
+			"comp_nome": "Johann Joachim Quantz",
+			"comp_id": "C6"
+		},
+		{
+			"comp_nome": "Johann Krieger",
+			"comp_id": "C110"
+		},
+		{
+			"comp_nome": "Johann Nicolaus Bach",
+			"comp_id": "C178"
+		},
+		{
+			"comp_nome": "Johann Pachelbel",
+			"comp_id": "C8"
+		},
+		{
+			"comp_nome": "Johann Tobias Krebs",
+			"comp_id": "C66"
+		},
+		{
+			"comp_nome": "John Eccles",
+			"comp_id": "C198"
+		},
+		{
+			"comp_nome": "Krebs, Johann Ludwig",
+			"comp_id": "C214"
+		},
+		{
+			"comp_nome": "Kuhnau, Johann",
+			"comp_id": "C312"
+		},
+		{
+			"comp_nome": "Leo, Leonardo",
+			"comp_id": "C294"
+		},
+		{
+			"comp_nome": "Louis Marchand",
+			"comp_id": "C328"
+		},
+		{
+			"comp_nome": "Louis-Claude Daquin",
+			"comp_id": "C24"
+		},
+		{
+			"comp_nome": "Marais, Marin",
+			"comp_id": "C134"
+		},
+		{
+			"comp_nome": "Marcello, Benedetto",
+			"comp_id": "C118"
+		},
+		{
+			"comp_nome": "Martini, Giovanni Battista",
+			"comp_id": "C290"
+		},
+		{
+			"comp_nome": "Mattheson, Johann",
+			"comp_id": "C46"
+		},
+		{
+			"comp_nome": "Maurice Greene",
+			"comp_id": "C218"
+		},
+		{
+			"comp_nome": "Michel Richard Delalande",
+			"comp_id": "C256"
+		},
+		{
+			"comp_nome": "Mondonville, Jean-Joseph",
+			"comp_id": "C332"
+		},
+		{
+			"comp_nome": "Neander, Joachim",
+			"comp_id": "C298"
+		},
+		{
+			"comp_nome": "Nicola Porpora",
+			"comp_id": "C40"
+		},
+		{
+			"comp_nome": "Nicolas Siret",
+			"comp_id": "C190"
+		},
+		{
+			"comp_nome": "Nicolaus Bruhns",
+			"comp_id": "C200"
+		},
+		{
+			"comp_nome": "Pergolesi, Giovanni Battista",
+			"comp_id": "C98"
+		},
+		{
+			"comp_nome": "Purcell, Henry",
+			"comp_id": "C64"
+		},
+		{
+			"comp_nome": "Rameau, Jean-Philippe",
+			"comp_id": "C14"
+		},
+		{
+			"comp_nome": "Robert de Visee",
+			"comp_id": "C232"
+		},
+		{
+			"comp_nome": "Rousseau, Jean-Jacques",
+			"comp_id": "C276"
+		},
+		{
+			"comp_nome": "Sammartini, Giovanni Battista",
+			"comp_id": "C264"
+		},
+		{
+			"comp_nome": "Sammartini, Giuseppe",
+			"comp_id": "C320"
+		},
+		{
+			"comp_nome": "Schenck, Johannes",
+			"comp_id": "C258"
+		},
+		{
+			"comp_nome": "Seixas, Carlos",
+			"comp_id": "C42"
+		},
+		{
+			"comp_nome": "Steffani, Agostino",
+			"comp_id": "C164"
+		},
+		{
+			"comp_nome": "Thomas Arne",
+			"comp_id": "C20"
+		},
+		{
+			"comp_nome": "Tomaso Albinoni",
+			"comp_id": "C102"
+		},
+		{
+			"comp_nome": "Veracini, Antonio",
+			"comp_id": "C314"
+		},
+		{
+			"comp_nome": "Weldon, John",
+			"comp_id": "C216"
+		},
+		{
+			"comp_nome": "Wilhelmine of Prussia",
+			"comp_id": "C172"
+		},
+		{
+			"comp_nome": "William Boyce",
+			"comp_id": "C296"
+		},
+		{
+			"comp_nome": "Zachow, Friedrich Wilhelm",
+			"comp_id": "C246"
+		},
+		{
+			"comp_nome": "Zipoli, Domenico",
+			"comp_id": "C104"
+		}
+	],
+	"id": "0"
+}
+{
+	"nome": "Renascimento",
+	"compositores": [
+		{
+			"comp_nome": "Alessandro Stradella",
+			"comp_id": "C206"
+		},
+		{
+			"comp_nome": "Andrea Falconieri",
+			"comp_id": "C192"
+		},
+		{
+			"comp_nome": "Anerio, Felice",
+			"comp_id": "C242"
+		},
+		{
+			"comp_nome": "Anerio, Giovanni Francesco",
+			"comp_id": "C244"
+		},
+		{
+			"comp_nome": "Antonio Maria Abbatini",
+			"comp_id": "C88"
+		},
+		{
+			"comp_nome": "Bach, Johann Christoph",
+			"comp_id": "C128"
+		},
+		{
+			"comp_nome": "Bach, Johann Michael",
+			"comp_id": "C152"
+		},
+		{
+			"comp_nome": "Bernardo Pasquini",
+			"comp_id": "C284"
+		},
+		{
+			"comp_nome": "Biber, Heinrich Ignaz Franz",
+			"comp_id": "C292"
+		},
+		{
+			"comp_nome": "Boyvin, Jacques",
+			"comp_id": "C318"
+		},
+		{
+			"comp_nome": "Bull, John",
+			"comp_id": "C202"
+		},
+		{
+			"comp_nome": "Cabanilles, Juan Bautista",
+			"comp_id": "C272"
+		},
+		{
+			"comp_nome": "Carissimi, Giacomo",
+			"comp_id": "C122"
+		},
+		{
+			"comp_nome": "Cavalieri, Emilio de'",
+			"comp_id": "C138"
+		},
+		{
+			"comp_nome": "Cavalli, Francesco",
+			"comp_id": "C120"
+		},
+		{
+			"comp_nome": "Cesti, Antonio",
+			"comp_id": "C116"
+		},
+		{
+			"comp_nome": "Cristofaro Caresana",
+			"comp_id": "C124"
+		},
+		{
+			"comp_nome": "Dieterich Buxtehude",
+			"comp_id": "C2"
+		},
+		{
+			"comp_nome": "Diogo Dias Melgas",
+			"comp_id": "C268"
+		},
+		{
+			"comp_nome": "Duarte Lobo",
+			"comp_id": "C226"
+		},
+		{
+			"comp_nome": "Duarte Lôbo",
+			"comp_id": "C230"
+		},
+		{
+			"comp_nome": "Elisabeth Sophie of Mecklenburg",
+			"comp_id": "C130"
+		},
+		{
+			"comp_nome": "Esteban Lopez Morago",
+			"comp_id": "C174"
+		},
+		{
+			"comp_nome": "Estevao de Brito",
+			"comp_id": "C68"
+		},
+		{
+			"comp_nome": "Ferdinand Iii, Holy Roman Emperor",
+			"comp_id": "C234"
+		},
+		{
+			"comp_nome": "Fernandes, Gaspar",
+			"comp_id": "C302"
+		},
+		{
+			"comp_nome": "Filipe De Magalhaes",
+			"comp_id": "C126"
+		},
+		{
+			"comp_nome": "Frescobaldi, Girolamo",
+			"comp_id": "C162"
+		},
+		{
+			"comp_nome": "Froberger, Johann Jakob",
+			"comp_id": "C108"
+		},
+		{
+			"comp_nome": "Gibbons, Orlando",
+			"comp_id": "C114"
+		},
+		{
+			"comp_nome": "Giovanni Battista Vitali",
+			"comp_id": "C266"
+		},
+		{
+			"comp_nome": "Giovanni Gabrieli",
+			"comp_id": "C4"
+		},
+		{
+			"comp_nome": "Giovanni Legrenzi",
+			"comp_id": "C310"
+		},
+		{
+			"comp_nome": "Giulio Caccini",
+			"comp_id": "C208"
+		},
+		{
+			"comp_nome": "Gregor Aichinger",
+			"comp_id": "C60"
+		},
+		{
+			"comp_nome": "Gregorio Allegri",
+			"comp_id": "C62"
+		},
+		{
+			"comp_nome": "Hans Leo Haßler",
+			"comp_id": "C222"
+		},
+		{
+			"comp_nome": "Heinrich Scheidemann",
+			"comp_id": "C44"
+		},
+		{
+			"comp_nome": "Jan Pieterszoon Sweelinck",
+			"comp_id": "C30"
+		},
+		{
+			"comp_nome": "Johann Hermann Schein",
+			"comp_id": "C72"
+		},
+		{
+			"comp_nome": "Johann Schop",
+			"comp_id": "C154"
+		},
+		{
+			"comp_nome": "John 04 Of Portugal",
+			"comp_id": "C182"
+		},
+		{
+			"comp_nome": "John Blow",
+			"comp_id": "C18"
+		},
+		{
+			"comp_nome": "John Dowland",
+			"comp_id": "C280"
+		},
+		{
+			"comp_nome": "John IV",
+			"comp_id": "C180"
+		},
+		{
+			"comp_nome": "Leopold I",
+			"comp_id": "C240"
+		},
+		{
+			"comp_nome": "Louis Couperin",
+			"comp_id": "C38"
+		},
+		{
+			"comp_nome": "Luigi de Rossi",
+			"comp_id": "C304"
+		},
+		{
+			"comp_nome": "Lully, Jean-Baptiste",
+			"comp_id": "C236"
+		},
+		{
+			"comp_nome": "Lôbo, Duarte",
+			"comp_id": "C228"
+		},
+		{
+			"comp_nome": "Machado, Manuel",
+			"comp_id": "C80"
+		},
+		{
+			"comp_nome": "Madre De Deus, Filpe Da",
+			"comp_id": "C194"
+		},
+		{
+			"comp_nome": "Manuel Cardoso",
+			"comp_id": "C308"
+		},
+		{
+			"comp_nome": "Manuel Correia",
+			"comp_id": "C112"
+		},
+		{
+			"comp_nome": "Manuel Rodriguez Coelho",
+			"comp_id": "C260"
+		},
+		{
+			"comp_nome": "Marc-Antoine Charpentier",
+			"comp_id": "C10"
+		},
+		{
+			"comp_nome": "Maurice, Landgrave of Hesse-Kassel",
+			"comp_id": "C144"
+		},
+		{
+			"comp_nome": "Melchior Schildt",
+			"comp_id": "C136"
+		},
+		{
+			"comp_nome": "Michael Praetorius",
+			"comp_id": "C250"
+		},
+		{
+			"comp_nome": "Monsieur de Sainte-Colombe",
+			"comp_id": "C184"
+		},
+		{
+			"comp_nome": "Monteverdi, Claudio",
+			"comp_id": "C52"
+		},
+		{
+			"comp_nome": "Nivers, Guillaume-Gabriel",
+			"comp_id": "C150"
+		},
+		{
+			"comp_nome": "Paolo Agostino",
+			"comp_id": "C100"
+		},
+		{
+			"comp_nome": "Pedro de Araujo",
+			"comp_id": "C92"
+		},
+		{
+			"comp_nome": "Peri, Jacopo",
+			"comp_id": "C12"
+		},
+		{
+			"comp_nome": "Peter Philips",
+			"comp_id": "C252"
+		},
+		{
+			"comp_nome": "Pierre Beauchamp",
+			"comp_id": "C220"
+		},
+		{
+			"comp_nome": "Pietro Della Valle",
+			"comp_id": "C186"
+		},
+		{
+			"comp_nome": "Reincken, Johann Adam",
+			"comp_id": "C210"
+		},
+		{
+			"comp_nome": "Robert Cambert",
+			"comp_id": "C176"
+		},
+		{
+			"comp_nome": "Samuel Scheidt",
+			"comp_id": "C140"
+		},
+		{
+			"comp_nome": "Sanz, Gaspar",
+			"comp_id": "C248"
+		},
+		{
+			"comp_nome": "Stefano Landi",
+			"comp_id": "C84"
+		},
+		{
+			"comp_nome": "Strozzi, Barbara",
+			"comp_id": "C158"
+		},
+		{
+			"comp_nome": "Thomas Campion",
+			"comp_id": "C22"
+		},
+		{
+			"comp_nome": "Thomas Weelkes",
+			"comp_id": "C262"
+		},
+		{
+			"comp_nome": "Titelouze, Jean",
+			"comp_id": "C36"
+		},
+		{
+			"comp_nome": "Viadana, Lodovico Grossi da",
+			"comp_id": "C316"
+		},
+		{
+			"comp_nome": "Wilbye, John",
+			"comp_id": "C74"
+		}
+	],
+	"id": "1"
+}
